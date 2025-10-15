@@ -21,7 +21,7 @@ public class ModificadorRegistros {
             String textoOriginal = contenido.toString();
             registroActualizado = textoOriginal.replace(";", " | ");
 
-            System.out.println("✅ Lectura y actualización de registros completada");
+            System.out.println(" Lectura y actualización de registros completada");
             System.out.println("---------------------------------------------");
             System.out.print(registroActualizado);
             System.out.println("---------------------------------------------");
@@ -38,3 +38,4 @@ public class ModificadorRegistros {
         }
     }
 }
+
